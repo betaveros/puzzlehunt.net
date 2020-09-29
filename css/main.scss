@@ -462,10 +462,14 @@ pre {
 
 table {
     border-collapse: collapse;
+    margin-bottom: $spacing-unit;
 }
 
 td {
     border-top: 1px solid $grey-color-light;
+    padding: 0 0.375em;
+}
+td, th {
     padding: 0 0.375em;
 }
 tr:first-child > td {

@@ -3,29 +3,41 @@ layout: default
 title: Tools
 short_title: Tools
 ---
-## Word Query Tools
+## Word/Phrase Query Tools
 
-- [Nutrimatic](https://nutrimatic.org/)
-- [OneLook](https://onelook.com/) (+ [Reverse Dictionary](https://onelook.com/reverse-dictionary.shtml))
-- [Qat](https://quinapalus.com/cgi-bin/qat) ([about](https://www.quinapalus.com/qat.html))
-- [MoreWords](https://www.morewords.com/)
-- [RhymeZone](https://www.rhymezone.com/)
-- [CrosswordNexus Wikipedia Regex Search](https://crosswordnexus.com/wiki/)
-- [Lou Hevly's Regex Dictionary](https://www.visca.com/regexdict/)
-- [Mystery Hunter's Word Search](http://thewordsword.com/)
-- [NPL's Base Finding Tools](http://wiki.puzzlers.org/dokuwiki/doku.php?id=solving:bases)
+Tool | Corpus | Search pattern support | Semantic search
+- | - | - | -
+[Nutrimatic](https://nutrimatic.org/) | mined from Wikipedia + Wiktionary | custom regexes w/ anagramming and ([buggily?](https://nutrimatic.org/usage.html#syntax_anagram)) rearranging arbitrary patterns | no
+[OneLook](https://onelook.com/) (+ [Reverse Dictionary](https://onelook.com/reverse-dictionary.shtml)) | synthesis of dictionaries | globs* | reverse dictionary
+[Qat](https://quinapalus.com/cgi-bin/qat) ([about](https://www.quinapalus.com/qat.html)) | choice/union of dictionaries | custom regexes w/ multiple word constraints, anagramming, letterbanks | "qategories"
+[MoreWords](https://www.morewords.com/) | Scrabble-ish dictionary | globs* | no
+[RhymeZone](https://www.rhymezone.com/) | dictionary | globs* | no
+[CrosswordNexus Wikipedia Regex Search](https://crosswordnexus.com/wiki/) | Wikipedia/Wiktionary titles | Perl regexes w/ backreferences | no
+[Lou Hevly's Regex Dictionary](https://www.visca.com/regexdict/) | American Heritage Dictionary 4th | Perl regexes w/ backreferences | no
+[Mystery Hunter's Word Search](http://thewordsword.com/) | choice of dictionaries/Wiki titles | Perl regexes w/ backreferences? | no
+[NPL's Base Finding Tools](http://wiki.puzzlers.org/dokuwiki/doku.php?id=solving:bases) | choice of dictionaries | single-letter wildcards | no
+[OneAcross](http://www.oneacross.com/) | ? | single-letter wildcards | crossword clue database
+
+\* "globs" is shorthand for the "any single letter" wildcard and "any number of letters" wildcard, the two simplest components of [glob patterns in programming](https://en.wikipedia.org/wiki/Glob_%28programming%29).
 
 ## Anagramming
 
 - [Free Online Anagram Solver](https://anagram-solver.net/)
 - [Internet Anagram Server](http://wordsmith.org/anagram/)
-- [OneAcross](http://www.oneacross.com/)
+- [OneAcross Anagram Search](http://www.oneacross.com/anagrams/)
 
 ## Codes and Ciphers
 
-### References
+### Printable code sheets
 
-- Printable code sheets: [Puzzled Pint (PDF)](http://www.puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf), [Eric Harshbarger (PDF)](http://www.ericharshbarger.org/epp/code_sheet.pdf), [Netninja.com (PDF)](https://netninja.com/2012/12/02/moleskine-code-sheet/)
+Table | A=1 Bases | Morse | Braille | Semaphore | ASCII | Others
+- | -
+[Puzzled Pint (PDF)](http://www.puzzledpint.com/files/2415/7835/9513/CodeSheet-201912.pdf) | 2, 3, 10, 16 | yes | yes | yes | | Pigpen, NATO
+[Eric Harshbarger (PDF)](http://www.ericharshbarger.org/epp/code_sheet.pdf) | 2, 10, Roman | yes | yes | yes | yes | ASL, phone, ICS flags, Scrabble, Dvorak, Dancing Man, Gold Bug; also includes digits 0–9
+[Netninja.com (PDF)](https://netninja.com/2012/12/02/moleskine-code-sheet/) | 2, 3, 8, 10, 16 | yes | yes | yes | yes | good "reverse" Morse/semaphore lookup
+
+### Other References
+
 - Wikipedia articles for the usual suspects: [Braille](https://en.wikipedia.org/wiki/Braille), [Flag semaphore](https://en.wikipedia.org/wiki/Flag_semaphore), [International maritime signal flags](https://en.wikipedia.org/wiki/International_maritime_signal_flags), [Morse code](https://en.wikipedia.org/wiki/Morse_code), [Pigpen cipher key](https://en.wikipedia.org/wiki/Pigpen_cipher#/media/File:Pigpen_cipher_key.svg), [Spelling alphabets](https://en.wikipedia.org/wiki/Spelling_alphabet)
 - [Best ASCII Table](https://bestasciitable.com/)
 - [PhoneSpell](https://www.phonespell.org/)
@@ -33,15 +45,15 @@ short_title: Tools
 
 ### Tools
 
-- [Corby's Decoders](http://flystrip.com/corby/code/test.html)
-- [cryptii](https://cryptii.com/)
-- [CyberChef](https://gchq.github.io/CyberChef/)
-- [dCode](https://www.dcode.fr/en)
-- [monkey](http://www.npinsker.me/puzzles/monkey)
+- [Corby's Decoders](http://flystrip.com/corby/code/test.html) (Morse, Braille, semaphore)
+- [cryptii](https://cryptii.com/) (a lot of ciphers, encodings (e.g. base64), and modern cryptography (e.g. AES block ciphers))
+- [CyberChef](https://gchq.github.io/CyberChef/) (a lot of ciphers, encodings, modern crypto, and parsing modern formats (e.g. parse Protobuf))
+- [dCode](https://www.dcode.fr/en) (a lot of ciphers, some math and simple cryptoanalysis tools)
+- [monkey](http://www.npinsker.me/puzzles/monkey) (Morse, Braille, semaphore, amino acids)
 - [quipqiup](https://www.quipqiup.com/) (substitution ciphers)
-- [Rumkin Cipher Tools](http://rumkin.com/tools/cipher/)
-- [tools.qhex.org](https://tools.qhex.org/)
-- [solvertools](https://github.com/rspeer/solvertools)
+- [Rumkin Cipher Tools](http://rumkin.com/tools/cipher/) (a lot of classical ciphers)
+- [tools.qhex.org](https://tools.qhex.org/) (basic encodings, some counting cryptoanalysis tools, wordplay commands, automagic extraction, word search, some grid puzzle and polyomino assembly solvers)
+- [solvertools](https://github.com/rspeer/solvertools) (Python library including ciphers, wordplay, some types of automatic extraction, and a "cromulence" metric — whether something "looks like" an answer)
 - For your phone:
 
   - iOS: [Puzzle Sidekick](https://apps.apple.com/us/app/puzzle-sidekick/id678644111)

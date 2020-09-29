@@ -9,7 +9,7 @@ short_title: Guides
 - [Introduction to Puzzlehunts](https://blog.vero.site/post/puzzlehunts) (betaveros)
 - [Puzzled Pint's Puzzling Basics](http://www.puzzledpint.com/files/3513/8254/7894/2013_10_22_Puzzling_Basics_Infographic.pdf) (editor's note: I would like to state for the record that alphanumeric codes wrap around by subtracting 26 **extremely rarely**; everything else in this guide is reasonable.)
 - [mezzacotta's Puzzle Solving Guide](https://www.mezzacotta.net/puzzle/guide.php)
-- [Mission Stree Puzzles's Beginner's Guide](https://missionstreetpuzzles.com/beginners-guide/)
+- [Mission Street Puzzles's Beginner's Guide](https://missionstreetpuzzles.com/beginners-guide/)
 
 
 ## Crosswords

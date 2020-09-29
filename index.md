@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-Under construction! Nothing on this site is a puzzle.
+Under construction! Nothing on this site is a puzzle (yet).
 
 - [List of Puzzlehunts](/list)
 - [Puzzlehunt Tools](/tools)
