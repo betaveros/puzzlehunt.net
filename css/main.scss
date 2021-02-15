@@ -111,9 +111,11 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul, ol, dd {
     margin-left: $spacing-unit;
 }
+
+dt { font-weight: bold; }
 
 li {
     > ul,
@@ -521,6 +523,19 @@ tr:first-child > td {
             font-size: 18px;
         }
     }
+}
+
+.padded-callout {
+    padding: 0.5em;
+    background-color: #eee;
+}
+.padded-callout.success {
+    background-color: #dfd;
+    color: #020;
+}
+.padded-callout.error {
+    background-color: #fdd;
+    color: #100;
 }
 
 /**
