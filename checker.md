@@ -102,7 +102,7 @@ function checkHash(version, label, salt, hash, answer, callback) {
 	// The caller should canonicalize the answer!
 	// Note: add the label even if it's empty. Also assume the label is ASCII
 	// (by being URI-encoded) already.
-	const fullSalt = encoder.encode("puzzlehunt.net/check#" + version + '#' + salt + '#' + label);
+	const fullSalt = encoder.encode("puzzlehunt.net/checker#" + version + '#' + salt + '#' + label);
 	scrypt.scrypt(encoder.encode(answer), fullSalt, 4096, 8, 1, 24, function (progress) {
 		callback({ 'progress': progress });
 	}).then(function (key) {
