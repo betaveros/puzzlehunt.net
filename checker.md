@@ -144,6 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	checkForm.addEventListener('submit', function (event) {
 		event.preventDefault();
+		checkInput.select();
 		const answer = canonicalize(checkInput.value);
 		checkOut.textContent = 'Checking...';
 		checkOut.className = 'padded-callout';
