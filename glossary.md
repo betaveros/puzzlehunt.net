@@ -162,7 +162,9 @@ Not all of these terms are widely attested.
 
 {:#metapuzzle} Metapuzzle
 
-:   A puzzle that uses answers from other puzzles. Typically unlocked after regular puzzles. Usually important for progressing through a hunt; the answer to a metapuzzle may have plot significance in that regard and is also often humorous or punny. The opposite may be called a "regular puzzle" or, when the relationship to a metapuzzle is being emphasized, a "[feeder](#feeder)".
+:   (often shortened to "meta") A puzzle that uses answers from other puzzles. Typically unlocked after regular puzzles. Usually important for progressing through a hunt; the answer to a metapuzzle may have plot significance in that regard and is also often humorous or punny. The opposite may be called a "regular puzzle" or, when the relationship to a metapuzzle is being emphasized, a "[feeder](#feeder)".
+
+    When the correspondence of metapuzzles to feeders is not provided and must be determined by solvers, the process is usually called "meta(puzzle) matching".
 
 {:#mit-mystery-hunt} [MIT Mystery Hunt](https://web.mit.edu/puzzle/www/)
 
