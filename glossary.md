@@ -184,6 +184,18 @@ Not all of these terms are widely attested.
 
 :   An organization of puzzlers founded in 1883. Generally more focused on word play and word games than other kinds of puzzles, though certainly not exclusively. Publishes <i>The ENIGMA</i>, a monthly magazine, and hosts an annual convention whose name depends on where it's hosted. Most strongly associated with the puzzle type of the "flat".
 
+{:#partial} Partial (confirmation)
+
+:   (the jury is still out on if this is the right term) An intermediate phrase obtained from a puzzle that produces a special response when entered into the answer checker. The response may guide the solver to the next step, or may simply provide nothing more than confirmation that that phrase is correct, e.g. "Keep going!" Not all puzzlehunts provide partial confirmation.
+
+{:#pure-metapuzzle} Pure metapuzzle
+
+:   A [metapuzzle](#metapuzzle) with no or minimal content (e.g. only [flavor text](#flavor-text)) in and of itself; the metapuzzle consists of just the answers that [feed](#feeder) into it. The opposite is a "[shell metapuzzle](#shell-metapuzzle)".
+
+{:#puzzle-trail} Puzzle trail
+
+:   (not common) A linear sequence of puzzles where each one leads to the next, often by changing a component of the URL to the answer due to the technical simplicity of implementing that. The Ur-example is notpr0n.
+
 {:#random-anagram} Random anagram
 
 :   (also "randomgram" or "unclued anagram") Any [anagramming](#anagram) step in a puzzle without a provided order of the letters or confirmation of the result. Generally frowned upon in puzzle construction, though occasionally a useful puzzle solving step if the order cannot be found, and there isn't a universally agreed-upon definition of what counts as "confirmation" enough to make an anagram not qualify.
@@ -197,18 +209,6 @@ Not all of these terms are widely attested.
 {:#runaround} Runaround
 
 :   A puzzle that generally involves following instructions to move around a physical space (by running or otherwise), typically to gather information in a puzzly way.
-
-{:#partial} Partial (confirmation)
-
-:   (the jury is still out on if this is the right term) An intermediate phrase obtained from a puzzle that produces a special response when entered into the answer checker. The response may guide the solver to the next step, or may simply provide nothing more than confirmation that that phrase is correct, e.g. "Keep going!" Not all puzzlehunts provide partial confirmation.
-
-{:#pure-metapuzzle} Pure metapuzzle
-
-:   A [metapuzzle](#metapuzzle) with no or minimal content (e.g. only [flavor text](#flavor-text)) in and of itself; the metapuzzle consists of just the answers that [feed](#feeder) into it. The opposite is a "[shell metapuzzle](#shell-metapuzzle)".
-
-{:#puzzle-trail} Puzzle trail
-
-:   (not common) A linear sequence of puzzles where each one leads to the next, often by changing a component of the URL to the answer due to the technical simplicity of implementing that. The Ur-example is notpr0n.
 
 {:#surface} Surface (reading)
 
