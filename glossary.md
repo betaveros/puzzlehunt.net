@@ -44,7 +44,7 @@ Not all of these terms are widely attested.
 
 {:#bigram} Bigram
 
-:   A pair of letters, generally adjacent, usually used to describe wordplay modifications or relationships between words. You can insert a bigram into SCALE to get SCYTALES, but not SCALPELS.
+:   A pair of letters, generally adjacent, usually used to describe wordplay modifications or relationships between words. You can insert a bigram into SCALES to get SCYTALES, but not SCALPELS.
 
 {:#black-box} Black box (puzzle)
 
