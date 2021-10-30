@@ -112,7 +112,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2004-09-13 | MUMS       | [MUMS Puzzle Hunt 2004](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2004/puzzles.html) (cult kidnapping)         | [18](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2004/puzzles.html) | 1
 2004-01-16 | MIT        | [2004 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2004/) (Time Bandits)                                                | [84?](https://web.mit.edu/puzzle/www/2004/puzzles/alpha.html) | 8?
 -|---
-2003-01-17 | MIT        | [2003 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2003/www.acme-corp.com/0101/index.html) (corporate mystery / The Matrix) | [78?](https://web.mit.edu/puzzle/www/2003/www.acme-corp.com/teamGuest/index.html) | 8?
+2003-01-17 | MIT        | [2003 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2003/www.acme-corp.com/0101/index.html) (corporate mystery / The Matrix) | [105?](https://web.mit.edu/puzzle/www/2003/www.acme-corp.com/teamGuest/index.html) | 8?
 -|---
 2002-01-18 | MIT        | [2002 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2002/) (Monopoly)                                                    | [74?](https://web.mit.edu/puzzle/www/2002/by-title.html) | 9?
 -|---
