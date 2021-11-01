@@ -10,6 +10,7 @@ Many of the large numbers were crudely estimated by copy-pasting and counting li
 
 Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2021-10-23 | Boat       | [Puzzle Boat 8](https://www.pandamagazine.com/island8/) (infinity)                                                          | ? | ?
 2021-10-01 | Teammate   | [Matt & Emma's Carnival Conundrum](https://teammatehunt.com/)                                                               | [43](https://teammatehunt.com/puzzles) | 5
 2021-09-10 |            | [QoDE Puzzle Hunt](https://ona.quest/)                                                                                      | [43](https://ona.quest/puzzles) | 5
 2021-08-21 | Potluck    | [Puzzle Potluck 4](https://puzzlepotluck.com/4) (Animal Crossing)                                                           | [9(×2)](https://puzzlepotluck.com/4) | 3?
@@ -23,6 +24,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 -|---
 2020-12-04 |            | [Daro & Caro's Pixar Puzzle Hunt](https://darocaro.github.io/)                                                              | [15](https://darocaro.github.io/puzzles) | ??
 2020-10-23 | Teammate   | [Matt & Emma's Birthday Bash](https://2020.teammatehunt.com/)                                                               | [32?](https://2020.teammatehunt.com/) | 5?
+2020-10-10 | Boat       | [Puzzle Boat 7](https://www.pandamagazine.com/island7/) (board games)                                                       | ? | ?
 2020-09-18 |            | [DP Puzzle Hunt](https://dp.puzzlehunt.net/)                                                                                | [23](https://dp.puzzlehunt.net/puzzles.html) | 2
 2020-09-05 | Halpin     | [Balancing Act](http://www.markhalpin.com/puzzles/anubis/anubis.html) (Egyptian mythology)                                  | [11](http://www.markhalpin.com/puzzles/anubis/anubis767690.pdf) | 1
 2020-06-20 | Potluck    | [Puzzle Potluck 3](https://puzzlepotluck.com/3) (Trivial Pursuit)                                                           | [18](https://puzzlepotluck.com/3) | <small>it's complicated</small>
@@ -30,6 +32,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2020-02-01 |            | [Puzzles Are Magic](https://www.puzzlesaremagic.com/)                                                                       | [12](https://www.puzzlesaremagic.com/hunt/current.html) | 3
 2020-01-17 | MIT        | [2020 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2020/) (Penny Park)                                                  | [159?](https://web.mit.edu/puzzle/www/2020/puzzles/) | 25?
 -|---
+2019-10-19 | Boat       | [Puzzle Boat 6](https://www.pandamagazine.com/island6/) (books)                                                             | ? | ?
 2019-08-31 | Halpin     | [Distressed](http://www.markhalpin.com/puzzles/sedna/sedna.html) (Inuit mythology)                                          | [10](http://www.markhalpin.com/puzzles/sedna/sedna.html) | 1
 2019-08-07 | MUMS       | [MUMS Puzzle Hunt 2019](https://www.mumspuzzlehunt.com/) (Rubik's cube)                                                     | [30](https://www.mumspuzzlehunt.com/puzzles/) | 1
 2019-06-15 | Potluck    | [Puzzle Potluck 2](https://puzzlepotluck.com/2) (Professor Layton)                                                          | [9](https://puzzlepotluck.com/2) | <small>it's complicated</small>
@@ -38,11 +41,13 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 -|---
 2018-11-30 | Caltech    | [2018 Caltech Puzzle Hunt](http://2018.caltechpuzzlehunt.org/) (The Land of Wisdom)                                         | [82?](http://2018.caltechpuzzlehunt.org/hunt/index.html) | 6?
 2018-11-10 | Potluck    | [Puzzle Potluck 1](https://puzzlepotluck.com/1) (Quest for the Grail)                                                       | [6](https://puzzlepotluck.com/1) | 1
+2018-10-27 | Boat       | [Puzzle Boat 5](https://www.pandamagazine.com/island5/)                                                                     | ? | ?
 2018-10-05 | REDDOT     | [REDDOThunt 2018](https://reddothunt.sg/2018) (murder mysteries)                                                            | [18](https://reddothunt.sg/2018/puzzles) | 3
 2018-09-01 | Halpin     | [It Takes Two](http://www.markhalpin.com/puzzles/twins/twins.html) (Mayan mythology)                                        | [10](http://www.markhalpin.com/puzzles/twins/twins.pdf) | 1
 2018-03-16 | Galactic   | [Galactic Puzzle Hunt 2018: The Great Galactic Bake Off](https://2018.galacticpuzzlehunt.com/)                              | [36](https://2018.galacticpuzzlehunt.com/puzzles.html) | 4
 2018-01-12 | MIT        | [2018 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2018/) (Inside Out)                                                  | [122?](https://web.mit.edu/puzzle/www/2018/full/puzzle.html) | 25?
 -|---
+2017-10-14 | Boat       | [Puzzle Boat 4](http://www.pandamagazine.com/island4/) (fantastic marathon)                                                 | ? | ?
 2017-09-29 | REDDOT     | [REDDOThunt 2017](https://reddothunt.sg/2017) (talent contest)                                                              | [19](https://reddothunt.sg/2017/puzzles) | 3
 2017-09-02 | Halpin     | [When First We Practice To Deceive](http://www.markhalpin.com/puzzles/anansi/anansi.html) (Anansi)                          | [11](http://www.markhalpin.com/puzzles/anansi/anansi.pdf) | 1
 2017-03-14 | Galactic   | [Galactic Puzzle Hunt 2017: Puzzleball Championships](https://2017.galacticpuzzlehunt.com/)                                 | [25](https://2017.galacticpuzzlehunt.com/puzzles.html) | 5
@@ -55,6 +60,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2016-01-15 | MIT        | [2016 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2016/) (Huntception)                                                 | [147?](https://web.mit.edu/puzzle/www/2016/toc.html) | 17?
 -|---
 2015-11-02 | SUMS       | [SUMS Puzzle Hunt 2015](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2015/main) (intrigue in space)                     | [20](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2015/puzzles) | 1
+2015-10-10 | Boat       | [Puzzle Boat 3](http://pandamagazine.com/island3/) (cube escape)                                                            | ? | ?
 2015-09-05 | Halpin     | [Speaking of Witch...](http://www.markhalpin.com/puzzles/baba/baba.html) (Baba Yaga)                                        | [7](http://www.markhalpin.com/puzzles/baba/baba.pdf) (PDF) | 1
 2015-05-04 | MUMS       | [MUMS Puzzle Hunt 2015](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2015/puzzles.html) (Star Wars)               | [20](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2015/puzzles.html) | 1
 2015-01-16 | MIT        | [2015 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2015/) (20,000 Puzzles Under the Sea)                                | [143?](https://web.mit.edu/puzzle/www/2015/toc.html) | 15?
@@ -67,6 +73,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2013-11-02 | SUMS       | [SUMS Puzzle Hunt 2013](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2013/main) (dreams/Cthulhu)                        | [20](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2013/puzzles) | 1
 2013-07-29 | CiSRA      | [CiSRA Puzzle Competition 2013 (mezzacotta archive)](https://www.mezzacotta.net/puzzle/cisra/2013/)                         | [25](https://www.mezzacotta.net/puzzle/cisra/2013/puzzles.html)
 2013-05-13 | MUMS       | [MUMS Puzzle Hunt 2013](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2013/puzzles.html) (alchemy)                 | [20](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2013/puzzles.html) | 1
+2013-03-23 | Boat       | [Puzzle Boat 2](http://pandamagazine.com/island2/) (island escape)                                                          | ? | ?
 2013-01-18 | MIT        | [2013 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2013/) (coin heist)                                                  | 134? | 21?
 -|---
 2012-11-02 | SUMS       | [SUMS Puzzle Hunt 2012](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2012/main) (E.V.I.L./apocalypse)                   | [20](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2012/puzzles) | 1
@@ -106,6 +113,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2006-03-27 | MUMS       | [MUMS Puzzle Hunt 2006](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2006/puzzles.html) (fake scientists)         | [20](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2006/puzzles.html) | 1
 2006-01-13 | MIT        | [2006 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2006/) (S.P.I.E.S.)                                                  | [92?](https://web.mit.edu/puzzle/www/2006/allpuzzles.html) | 10?
 -|---
+2005-10-16 | Boat       | [The Puzzle Boat](http://pandamagazine.com/island/) (island visit)                                                          | ? | 9?
 2005-04-04 | MUMS       | [MUMS Puzzle Hunt 2005](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2005/puzzles.html) (fantasy destabilization) | [25](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2005/puzzles.html) | 1
 2005-01-14 | MIT        | [2005 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2005/) (Normalville)                                                 | [115?](https://web.mit.edu/puzzle/www/2005/setec/) | 6×2?
 -|---
