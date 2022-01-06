@@ -8,17 +8,23 @@ Very incomplete! Under construction.
 
 Many of the large numbers were crudely estimated by copy-pasting and counting lines without that much concern for accuracy. If you would like to report an error or do some much more careful counting, please feel free and let me know your results.
 
+Things not yet added: CMU Puzzle Hunt?
+
+I probably won't add Puzzled Pint because there are too many compared to the other hunts.
+
 Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2021-12-18 |            | [Puzzle Rojak](https://www.puzzlerojak.com/) (Where's Waldo?)                                                               | [27](https://www.puzzlerojak.com/puzzles) | 5
 2021-10-23 | Boat       | [Puzzle Boat 8](https://www.pandamagazine.com/island8/) (infinity)                                                          | ? | ?
 2021-10-01 | Teammate   | [Matt & Emma's Carnival Conundrum](https://teammatehunt.com/)                                                               | [43](https://teammatehunt.com/puzzles) | 5
-2021-09-10 |            | [QoDE Puzzle Hunt](https://ona.quest/)                                                                                      | [43](https://ona.quest/puzzles) | 5
+2021-09-10 |            | [QoDE Puzzle Hunt](https://ona.quest/) (Batman)                                                                             | [43](https://ona.quest/puzzles) | 5
 2021-08-21 | Potluck    | [Puzzle Potluck 4](https://puzzlepotluck.com/4) (Animal Crossing)                                                           | [9(×2)](https://puzzlepotluck.com/4) | 3?
 2021-07-23 | Galactic   | [Galactic Puzzle Hunt 2020: 20/20 Vision](https://2020.galacticpuzzlehunt.com/)                                             | [36](https://2020.galacticpuzzlehunt.com/puzzles) | 7
-2021-07-16 |            | [Hunt20](https://hunt20.com/)                                                                                               | [18](https://hunt20.com/puzzles.html) | 2
-2021-05-29 |            | [Huntinality](https://huntinality.com/)                                                                                     | [15](https://huntinality.com/) | 2
-2021-05-08 |            | [Paradox Puzzlehunt](https://paradoxpuzzlehunt.com/)                                                                        | [10](https://paradoxpuzzlehunt.com/puzzles) | 2
-2021-01-30 |            | [Inexact Puzzlehunt](https://inexactpuzzles.com/hunts/1bqxw/halloween/)                                                     | [9](https://inexactpuzzles.com/hunts/1bqxw/halloween/) | 1
+2021-07-16 |            | [Hunt20](https://hunt20.com/) (books)                                                                                       | [18](https://hunt20.com/puzzles.html) | 2
+2021-05-29 |            | [Huntinality](https://huntinality.com/) (Wario)                                                                             | [15](https://huntinality.com/) | 2
+2021-05-08 |            | [Paradox Puzzlehunt](https://paradoxpuzzlehunt.com/) (Soda Fountain of Youth)                                               | [10](https://paradoxpuzzlehunt.com/puzzles) | 2
+2021-04-24 |            | [Inaudible Puzzlehunt](https://mutedpuzzles.com/)                                                                           | [8](https://mutedpuzzles.com/Welcome%20to%20mini%20hunt!.html) | 1
+2021-01-30 |            | [Inexact Puzzlehunt](https://inexactpuzzles.com/hunts/1bqxw/halloween/) (Halloween)                                         | [9](https://inexactpuzzles.com/hunts/1bqxw/halloween/) | 1
 2021-01-15 | MIT        | [2021 MIT Mystery Hunt](https://perpendicular.institute/) (⊥IW)                                                             | [175?](https://web.mit.edu/puzzle/www/2020/puzzles/) | 22?
 2021-01-02 |            | [UMD Puzzlehunt](https://www.umdpuzzle.club/)                                                                               | [23](https://www.umdpuzzle.club/puzzles) | 2
 -|---
