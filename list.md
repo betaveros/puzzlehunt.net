@@ -23,7 +23,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2021-08-21 | Potluck    | [Puzzle Potluck 4](https://puzzlepotluck.com/4) (Animal Crossing)                                                           | [9(×2)](https://puzzlepotluck.com/4) | 3?
 2021-07-23 | Galactic   | [Galactic Puzzle Hunt 2020: 20/20 Vision](https://2020.galacticpuzzlehunt.com/)                                             | [36](https://2020.galacticpuzzlehunt.com/puzzles) | 7
 2021-07-16 |            | [Hunt20](https://hunt20.com/) (books)                                                                                       | [18](https://hunt20.com/puzzles.html) | 2
-2021-05-29 |            | [Huntinality](https://huntinality.com/) (Wario)                                                                             | [15](https://huntinality.com/) | 2
+2021-05-29 |            | [Huntinality](https://huntinality.com/) (Waluigi)                                                                           | [15](https://huntinality.com/) | 2
 2021-05-08 |            | [Paradox Puzzlehunt](https://paradoxpuzzlehunt.com/) (Soda Fountain of Youth)                                               | [10](https://paradoxpuzzlehunt.com/puzzles) | 2
 2021-04-24 |            | [Inaudible Puzzlehunt](https://mutedpuzzles.com/)                                                                           | [8](https://mutedpuzzles.com/Welcome%20to%20mini%20hunt!.html) | 1
 2021-01-30 |            | [Inexact Puzzlehunt](https://inexactpuzzles.com/hunts/1bqxw/halloween/) (Halloween)                                         | [9](https://inexactpuzzles.com/hunts/1bqxw/halloween/) | 1
