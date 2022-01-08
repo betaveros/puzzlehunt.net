@@ -5,11 +5,13 @@ short_title: Tools
 ---
 ## Word/Phrase Query Tools
 
+In my (betaveros's) opinion, the first three tools are all highly useful; each has significant unique strengths that may make them superior to all other tools, depending on the scenario. They are the first three tools I would suggest learning, in that order. The remaining tools are not as strongly ordered; I believe every one of them may still be superior to all other tools in some specific scenarios, but those scenarios will be rarer.
+
 Tool | Corpus | Search pattern support | Semantic search
 - | - | - | -
-[Nutrimatic](https://nutrimatic.org/) | mined from Wikipedia + Wiktionary | custom regexes w/ anagramming and ([buggily?](https://nutrimatic.org/usage.html#syntax_anagram)) rearranging arbitrary patterns | no
-[OneLook](https://onelook.com/) (+ [Reverse Dictionary](https://onelook.com/reverse-dictionary.shtml)) | synthesis of dictionaries | globs* | reverse dictionary
-[Qat](https://quinapalus.com/cgi-bin/qat) ([about](https://www.quinapalus.com/qat.html)) | choice/union of dictionaries | custom regexes w/ multiple word constraints, anagramming, letterbanks | "qategories"
+[**OneLook**](https://onelook.com/) (+ [Reverse Dictionary](https://onelook.com/reverse-dictionary.shtml)) | synthesis of dictionaries | globs*, consonants/vowels, conjunction, anagramming | reverse dictionary
+[**Nutrimatic**](https://nutrimatic.org/) | mined from Wikipedia + Wiktionary | custom regexes w/ anagramming and ([buggily?](https://nutrimatic.org/usage.html#syntax_anagram)) rearranging arbitrary patterns | no
+[**Qat**](https://quinapalus.com/cgi-bin/qat) ([about](https://www.quinapalus.com/qat.html)) | choice/union of dictionaries | custom regexes w/ multiple word constraints, anagramming, letterbanks | "qategories"
 [MoreWords](https://www.morewords.com/) | Scrabble-ish dictionary | globs* | no
 [RhymeZone](https://www.rhymezone.com/) | dictionary | globs* | no
 [CrosswordNexus Wikipedia Regex Search](https://crosswordnexus.com/wiki/) | Wikipedia/Wiktionary titles | Perl regexes w/ backreferences | no
@@ -17,6 +19,7 @@ Tool | Corpus | Search pattern support | Semantic search
 [Mystery Hunter's Word Search](http://thewordsword.com/) | choice of dictionaries/Wiki titles | Perl regexes w/ backreferences? | no
 [NPL's Base Finding Tools](http://wiki.puzzlers.org/dokuwiki/doku.php?id=solving:bases) | choice of dictionaries | single-letter wildcards | no
 [OneAcross](http://www.oneacross.com/) | ? | single-letter wildcards | crossword clue database
+[util.in's Heavy-Duty Anagram Solver](https://util.in/solver) | ? | simple regexes and anagramming; "80% confidence" letters | no
 
 \* "globs" is shorthand for the "any single letter" wildcard and "any number of letters" wildcard, the two simplest components of [glob patterns in programming](https://en.wikipedia.org/wiki/Glob_%28programming%29).
 

@@ -10,7 +10,9 @@ Many of the large numbers were crudely estimated by copy-pasting and counting li
 
 Things not yet added: CMU Puzzle Hunt?
 
-I probably won't add Puzzled Pint because there are too many compared to the other hunts.
+I probably won't add [Puzzled Pint](http://puzzledpint.com/) because there are too many compared to the other hunts, but it's a good source of small, easy-ish puzzle sets.
+
+Another incredibly good introductory hunt not listed below is [Colby's Curious Cookoff](https://curiouscookoff.com/). I didn't include it in the table because I think it's characterized as more of an evergreen puzzle set rather than an event with specific start and end times.
 
 Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
