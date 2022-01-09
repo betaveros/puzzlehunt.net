@@ -37,7 +37,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2020-09-05 | Halpin     | [Balancing Act](http://www.markhalpin.com/puzzles/anubis/anubis.html) (Egyptian mythology)                                  | [11](http://www.markhalpin.com/puzzles/anubis/anubis767690.pdf) | 1
 2020-06-20 | Potluck    | [Puzzle Potluck 3](https://puzzlepotluck.com/3) (Trivial Pursuit)                                                           | [18](https://puzzlepotluck.com/3) | <small>it's complicated</small>
 2020-06-06 | REDDOT     | [REDDOThunt 2020](https://reddothunt.sg/2020) (office work)                                                                 | [18](https://reddothunt.sg/2020/puzzles) | 3
-2020-02-01 |            | [Puzzles Are Magic](https://www.puzzlesaremagic.com/)                                                                       | [12](https://www.puzzlesaremagic.com/hunt/current.html) | 3
+2020-02-01 |            | [Puzzles Are Magic](https://www.puzzlesaremagic.com/) (My Little Pony)                                                      | [12](https://www.puzzlesaremagic.com/hunt/current.html) | 3
 2020-01-17 | MIT        | [2020 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2020/) (Penny Park)                                                  | [159?](https://web.mit.edu/puzzle/www/2020/puzzles/) | 25?
 -|---
 2019-10-19 | Boat       | [Puzzle Boat 6](https://www.pandamagazine.com/island6/) (books)                                                             | ? | ?
