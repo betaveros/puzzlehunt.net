@@ -5,6 +5,8 @@ title: Client-Side Answer Checker
 ---
 A simple client-side answer checker for puzzlehunts. Of course, requires JavaScript. As is typical, considers every answer as a string of letters A–Z by changing lowercase letters to uppercase and stripping any other characters. Built on Richard Moore's [scrypt-js](https://github.com/ricmoo/scrypt-js), an implementation of Colin Percival's [scrypt](https://www.tarsnap.com/scrypt.html).
 
+<ins><strong>Update</strong> (2022-01-11): Titles are now base64-encoded in URLs, so they should survive URL percent-encoding fiddling, e.g. from URL shorteners. (Old links that worked should keep working.)</ins>
+
 <p id="loading">Loading...</p>
 
 <form id="check">
@@ -41,6 +43,14 @@ function b64OfArray(arr) {
 	});
 	return btoa(carr.join(""));
 }
+function unb64(s) {
+	const bs = atob(s);
+	const uarr = new Uint8Array(bs.length);
+	for (let i = 0; i < bs.length; i++) {
+		uarr[i] = bs.charCodeAt(i);
+	}
+	return uarr;
+}
 
 function canonicalize(rawGuess) {
 	rawGuess = rawGuess.toUpperCase();
@@ -76,11 +86,11 @@ function generateLocalSalt() {
 }
 
 function generateHash(label, answer, callback) {
-	const version = '0';
+	const version = '1';
 	// The caller should canonicalize the answer!
 	const salt = generateLocalSalt();
 	// Note: add the label even if it's empty. Also assume the label is ASCII
-	// (by being URI-encoded) already.
+	// (by being v0 URI-encoded or v1 base64ed) already.
 	const fullSalt = encoder.encode("puzzlehunt.net/checker#" + version + '#' + salt + '#' + label);
 	scrypt.scrypt(encoder.encode(answer), fullSalt, 4096, 8, 1, 24, function (progress) {
 		callback({ 'progress': progress });
@@ -94,7 +104,8 @@ function generateHash(label, answer, callback) {
 }
 
 function checkHash(version, label, salt, hash, answer, callback) {
-	if (version !== '0') {
+	// Weirdly, the version doesn't yet affect this part of the code.
+	if (version !== '0' && version !== '1') {
 		callback({
 			'error': 'Unsupported version: ' + version,
 		});
@@ -132,8 +143,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		label = params[3] || "";
 		if (version && salt && hash) {
 			checkForm.style.display = "block";
-			if (label) {
+			if (version === "0" && label) {
 				checkLabel.textContent = "Check your answer for " + decodeURIComponent(label) + ":";
+			} else if (version === "1" && label) {
+				checkLabel.textContent = "Check your answer for " + decoder.decode(unb64(label)) + ":";
 			} else {
 				checkLabel.textContent = "Check your answer:";
 			}
@@ -177,7 +190,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		genOut.textContent = 'Generating...';
 		genLink.textContent = '';
 		genLink.href = '#';
-		const genLabel = encodeURIComponent(document.getElementById('gen-label').value);
+		// this part is version 1 instead of version 0...
+		const genLabel = b64OfArray(encoder.encode(document.getElementById('gen-label').value));
 		generateHash(genLabel, answer, function (v) {
 			if ('error' in v) {
 				genOuter.className = 'padded-callout error';
