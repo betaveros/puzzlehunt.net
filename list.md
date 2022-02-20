@@ -16,6 +16,8 @@ Another incredibly good introductory hunt not listed below is [Colby's Curious C
 
 Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2022-01-15 | MIT        | [2022 MIT Mystery Hunt](https://www.bookspace.world/) (Bookspace)                                                           | [162?](https://www.bookspace.world/puzzles/) | 20?
+-|---
 2021-12-18 |            | [Puzzle Rojak](https://www.puzzlerojak.com/) (Where's Waldo?)                                                               | [27](https://www.puzzlerojak.com/puzzles) | 5
 2021-12-04 |            | [Silph Puzzle Hunt](https://silphpuzzlehunt.com/) (Pokémon Go)                                                              | [33](https://silphpuzzlehunt.com/puzzles) | 5
 2021-10-23 | Boat       | [Puzzle Boat 8](https://www.pandamagazine.com/island8/) (infinity)                                                          | ? | ?
@@ -30,7 +32,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2021-05-08 |            | [Paradox Puzzlehunt](https://paradoxpuzzlehunt.com/) (Soda Fountain of Youth)                                               | [10](https://paradoxpuzzlehunt.com/puzzles) | 2
 2021-04-24 |            | [Inaudible Puzzlehunt](https://mutedpuzzles.com/)                                                                           | [8](https://mutedpuzzles.com/Welcome%20to%20mini%20hunt!.html) | 1
 2021-01-30 |            | [Inexact Puzzlehunt](https://inexactpuzzles.com/hunts/1bqxw/halloween/) (Halloween)                                         | [9](https://inexactpuzzles.com/hunts/1bqxw/halloween/) | 1
-2021-01-15 | MIT        | [2021 MIT Mystery Hunt](https://perpendicular.institute/) (⊥IW)                                                             | [175?](https://web.mit.edu/puzzle/www/2020/puzzles/) | 22?
+2021-01-15 | MIT        | [2021 MIT Mystery Hunt](https://puzzles.mit.edu/2021/) (⊥IW)                                                                | [175?](https://puzzles.mit.edu/2021/puzzles.html) | 22?
 2021-01-02 |            | [UMD Puzzlehunt](https://www.umdpuzzle.club/)                                                                               | [23](https://www.umdpuzzle.club/puzzles) | 2
 -|---
 2020-12-04 |            | [Daro & Caro's Pixar Puzzle Hunt](https://darocaro.github.io/)                                                              | [15](https://darocaro.github.io/puzzles) | ??
@@ -42,7 +44,7 @@ Start Date | "Franchise" | Puzzlehunt | Puzzles | Metas
 2020-06-20 | Potluck    | [Puzzle Potluck 3](https://puzzlepotluck.com/3) (Trivial Pursuit)                                                           | [18](https://puzzlepotluck.com/3) | <small>it's complicated</small>
 2020-06-06 | REDDOT     | [REDDOThunt 2020](https://reddothunt.sg/2020) (office work)                                                                 | [18](https://reddothunt.sg/2020/puzzles) | 3
 2020-02-01 |            | [Puzzles Are Magic](https://www.puzzlesaremagic.com/) (My Little Pony)                                                      | [12](https://www.puzzlesaremagic.com/hunt/current.html) | 3
-2020-01-17 | MIT        | [2020 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2020/) (Penny Park)                                                  | [159?](https://web.mit.edu/puzzle/www/2020/puzzles/) | 25?
+2020-01-17 | MIT        | [2020 MIT Mystery Hunt](https://puzzles.mit.edu/2020/) (Penny Park)                                                         | [159?](https://puzzles.mit.edu/2020/puzzles/) | 25?
 -|---
 2019-10-19 | Boat       | [Puzzle Boat 6](https://www.pandamagazine.com/island6/) (books)                                                             | ? | ?
 2019-08-31 | Halpin     | [Distressed](http://www.markhalpin.com/puzzles/sedna/sedna.html) (Inuit mythology)                                          | [10](http://www.markhalpin.com/puzzles/sedna/sedna.html) | 1

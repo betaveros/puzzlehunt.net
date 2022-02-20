@@ -11,7 +11,6 @@ short_title: Guides
 - [mezzacotta's Puzzle Solving Guide](https://www.mezzacotta.net/puzzle/guide.php)
 - [Mission Street Puzzles's Beginner's Guide](https://missionstreetpuzzles.com/beginners-guide/)
 
-
 ## Crosswords
 
 - [How to Solve the New York Times Crossword](https://www.nytimes.com/guides/crosswords/how-to-solve-a-crossword-puzzle) (Deb Amlen)
@@ -28,3 +27,7 @@ short_title: Guides
 - [Suggestions for Running a Puzzlehunt](https://github.com/fortenforge/suggestions-for-running-a-puzzlehunt)
 - [Introduction to Writing Good Puzzle Hunt Puzzles](https://web.mit.edu/dwilson/www/puzzles/puzzlewriting.html) (David Wilson)
 - [Puzzlecraft](https://shop.lonesharkgames.com/products/puzzlecraft-how-to-make-every-kind-of-puzzle-softcover-pdf)
+
+## Tools
+
+- [Yet Another Puzzlehunt Spreadsheet Tutorial](https://docs.google.com/spreadsheets/d/1-KmLvmcydguI_RBJJqHihbewZmssmdNtlWFJIJZVXLk/edit#gid=0) (betaveros)
