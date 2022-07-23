@@ -11,6 +11,12 @@ short_title: Guides
 - [mezzacotta's Puzzle Solving Guide](https://www.mezzacotta.net/puzzle/guide.php)
 - [Mission Street Puzzles's Beginner's Guide](https://missionstreetpuzzles.com/beginners-guide/)
 
+### Puzzlehunts for Beginners
+
+- [Zelda minihunt](https://deusovi.github.io/puzzlefiles/zelda-minihunt.pdf) ([Deusovi](https://deusovi.github.io/)): 3 puzzles and a meta, as short and sweet as it gets.
+- [Colby's Curious Cookoff](https://curiouscookoff.com/): 22 puzzles, four metas, a capstone and a metameta. Very polished; most if not all puzzles have interfaces that let you solve them directly in the browser. Pay-what-you-want.
+- [DP Puzzle Hunt](https://dp.puzzlehunt.net/): 23 puzzles and two metas. Makes more effort than the other hunts on this list to follow "puzzlehunt conventions", particularly for metas, in my opinion (but I led this effort). Difficulty fluctuates a bit.
+
 ## Crosswords
 
 - [How to Solve the New York Times Crossword](https://www.nytimes.com/guides/crosswords/how-to-solve-a-crossword-puzzle) (Deb Amlen)
