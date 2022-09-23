@@ -16,6 +16,8 @@ Another incredibly good introductory hunt not listed below is [Colby's Curious C
 
 Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2022-09-03 | Halpin       | [Cross Purposes](http://www.markhalpin.com/puzzles/1CHEVROTAIN/chevrotain.html) (Malaysian folk tales)                      | [12](http://www.markhalpin.com/puzzles/1CHEVROTAIN/chevrotain767690.pdf) | 1
+2022-08-26 | Galactic     | [Galactic Puzzle Hunt 2022: The Exam](https://2022.galacticpuzzlehunt.com/)                                                 | [38](https://2022.galacticpuzzlehunt.com/puzzles) | 5?
 2022-07-09 | REDDOT       | [REDDOThunt 2022](https://2022.reddothunt.sg/) (trip planning)                                                              | [19](https://2022.reddothunt.sg/puzzles) | 3
 2022-06-18 | Huntinality  | [Huntinality 2.0](https://www.huntinality.com/) (web2.0 (?))                                                                | [33](https://www.huntinality.com/puzzles) | 5
 2022-04-15 |              | [Quantum Online Puzzle Hunt](https://hunts.timwi.de/qoph) (bomb defusal)                                                    | [24](https://hunts.timwi.de/qoph/puzzles) | 3
