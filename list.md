@@ -106,12 +106,12 @@ Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 2014-10-27 | SUMS         | [SUMS Puzzle Hunt 2014](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2014/main) (medieval intrigue)                     | [20](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2014/puzzles) | 1
 2014-08-30 | Halpin       | [I Get By With A Little Help From My Friends](http://www.markhalpin.com/puzzles/rama/rama.html) (Ramayana)                  | [13](http://www.markhalpin.com/puzzles/rama/rama.pdf) (PDF) | 1
 2014-05-05 | MUMS         | [MUMS Puzzle Hunt 2014](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2014/puzzles.html) (alchemy)                 | [20](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2014/puzzles.html) | 1
+2014-03-23 | Boat         | [Puzzle Boat 2](http://pandamagazine.com/island2/) (island escape)                                                          | ? | ?
 2014-01-17 | MIT          | [2014 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2014/) (Alice in Wonderland)                                         | [123?](https://web.mit.edu/puzzle/www/2014/overview.html) | 12?
 -|---
 2013-11-02 | SUMS         | [SUMS Puzzle Hunt 2013](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2013/main) (dreams/Cthulhu)                        | [20](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2013/puzzles) | 1
 2013-07-29 | CiSRA        | [CiSRA Puzzle Competition 2013 (mezzacotta archive)](https://www.mezzacotta.net/puzzle/cisra/2013/)                         | [25](https://www.mezzacotta.net/puzzle/cisra/2013/puzzles.html)
 2013-05-13 | MUMS         | [MUMS Puzzle Hunt 2013](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2013/puzzles.html) (alchemy)                 | [20](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2013/puzzles.html) | 1
-2013-03-23 | Boat         | [Puzzle Boat 2](http://pandamagazine.com/island2/) (island escape)                                                          | ? | ?
 2013-01-18 | MIT          | [2013 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2013/) (coin heist)                                                  | 134? | 21?
 -|---
 2012-11-02 | SUMS         | [SUMS Puzzle Hunt 2012](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2012/main) (E.V.I.L./apocalypse)                   | [20](https://www.maths.usyd.edu.au/ub/sums/puzzlehunt/2012/puzzles) | 1
