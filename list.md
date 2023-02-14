@@ -14,6 +14,9 @@ Another incredibly good introductory hunt not listed below is [Colby's Curious C
 
 Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2023-02-10 |              | [Grand Hunt Digital](https://grandhuntdigital.com/)                                                                         | [30](https://grandhuntdigital.com/puzzles) | 3
+2023-01-13 | MIT          | [2023 MIT Mystery Hunt](https://interestingthings.museum/)                                                                  | 152 | 18
+-|---
 2022-12-03 | Boat         | [Puzzle Boat 9](https://www.pandamagazine.com/island9/) (part 1)  (arcade)                                                  | ? | ?
 2022-11-19 | CMU          | [Monopoly Hunt (Fall '22)](https://puzzlehunt.club.cc.cmu.edu/hunt/21/)                                                     | 22 | ?
 2022-10-08 |              | [Exploring the Countryside](https://ecph.site/)                                                                             | [24](https://ecph.site/) | 3
@@ -25,7 +28,7 @@ Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 2022-06-18 | Huntinality  | [Huntinality 2.0](https://www.huntinality.com/) (web2.0 (?))                                                                | [33](https://www.huntinality.com/puzzles) | 5
 2022-04-23 | CMU          | [This Is Not a Puzzle Hunt (Spring '22)](https://puzzlehunt.club.cc.cmu.edu/hunt/19/)                                       | 24 | ?
 2022-04-15 |              | [Quantum Online Puzzle Hunt](https://hunts.timwi.de/qoph) (bomb defusal)                                                    | [24](https://hunts.timwi.de/qoph/puzzles) | 3
-2022-01-15 | MIT          | [2022 MIT Mystery Hunt](https://www.bookspace.world/) (Bookspace)                                                           | [162?](https://www.bookspace.world/puzzles/) | 20?
+2022-01-15 | MIT          | [2022 MIT Mystery Hunt](https://puzzles.mit.edu/2022/) (Bookspace)                                                          | [162?](https://www.bookspace.world/puzzles/) | 20?
 -|---
 2021-12-18 |              | [Puzzle Rojak](https://www.puzzlerojak.com/) (Where's Waldo?)                                                               | [27](https://www.puzzlerojak.com/puzzles) | 5
 2021-12-04 |              | [Silph Puzzle Hunt](https://silphpuzzlehunt.com/) (Pokémon Go)                                                              | [33](https://silphpuzzlehunt.com/puzzles) | 5
