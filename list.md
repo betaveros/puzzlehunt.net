@@ -14,6 +14,13 @@ Another incredibly good introductory hunt not listed below is [Colby's Curious C
 
 Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2023-09-02 | Halpin       | [Two on the Isle](http://www.markhalpin.com/puzzles/1ALOHA/aloha.html) (Hawaiian mythology)                                 | 12 | 1
+2023-07-28 |              | [Shardhunt](https://shardhunt.com/)                                                                                         | 25 | 4
+2023-07-16 | Edric        | [Edric's 2023 DUAL Puzzle Hunt](http://happinessboard.com/2023dualpuzzlehunt/)                                              | 48? | 2?
+2023-06-02 | "MIT"        | [Admiral Boötes’ Cosmic Discovery Expedition: Further Galaxies](https://puzzles.mit.edu/2023/abcde.puzzlefactory.place)     | 19? | 4?
+2023-05-06 |              | [Microsoft Puzzlehunt 23: Puzzle University](https://puzzle.university/)                                                    | 98? | 20?
+2023-04-22 | CMU          | [Prehistory Hunt (Spring '23)](https://puzzlehunt.club.cc.cmu.edu/hunt/22/)                                                 | 16 | 3
+2023-04-15 |              | [Brown Puzzlehunt](https://www.brownpuzzlehunt.com/)                                                                        | [24](https://www.brownpuzzlehunt.com/puzzles) | 4
 2023-02-10 |              | [Grand Hunt Digital](https://grandhuntdigital.com/)                                                                         | [30](https://grandhuntdigital.com/puzzles) | 3
 2023-01-13 | MIT          | [2023 MIT Mystery Hunt](https://interestingthings.museum/)                                                                  | 152 | 18
 -|---
