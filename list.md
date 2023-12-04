@@ -14,6 +14,8 @@ Another incredibly good introductory hunt not listed below is [Colby's Curious C
 
 Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
+2023-12-01 | Huntinality  | [Huntinality III: Hunts Aupon a Time](https://www.huntinality.com/)                                                         | 36 | 5
+2023-11-10 | Galactic     | [Galactic Puzzle Hunt 2023: GalactiCosmiCave](https://2023.galacticpuzzlehunt.com/)                                         | 37? | 2?
 2023-09-02 | Halpin       | [Two on the Isle](http://www.markhalpin.com/puzzles/1ALOHA/aloha.html) (Hawaiian mythology)                                 | 12 | 1
 2023-07-28 |              | [Shardhunt](https://shardhunt.com/)                                                                                         | 25 | 4
 2023-07-16 | Edric        | [Edric's 2023 DUAL Puzzle Hunt](http://happinessboard.com/2023dualpuzzlehunt/)                                              | 48? | 2?
