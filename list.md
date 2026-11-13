@@ -14,44 +14,86 @@ Another incredibly good introductory hunt not listed below is [Colby's Curious C
 
 Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 -  | - | - | -: | -:
-2023-12-01 | Huntinality  | [Huntinality III: Hunts Aupon a Time](https://www.huntinality.com/)                                                         | 36 | 5
-2023-11-10 | Galactic     | [Galactic Puzzle Hunt 2023: GalactiCosmiCave](https://2023.galacticpuzzlehunt.com/)                                         | 37? | 2?
+2026-11-06 |              | [Ocarina of Time Fanfic but with Puzzles](https://rcveeder.net/oot/)                                                        | ? | ?
+2026-10-09 | Galactic     | [Galactic Puzzle Hunt 2026: Reunion](https://2026.galacticpuzzlehunt.com/)                                                  | ? | ?
+2026-09-05 | Halpin       | [Wheels Within Wheels](https://www.markhalpin.com/puzzles/1iamgrotti/milly.html)                                            | 11 | 1
+2026-07-31 | Paradox      | [Paradox Puzzlehunt 2](https://2026.paradoxpuzzlehunt.com/) (The Phantom Tollbooth)                                         | [12](https://2026.paradoxpuzzlehunt.com/puzzles.html) | 4
+2026-07-17 | Edric        | [The 2026 Puzzle Extravaganza](https://2026extravaganza.happinessboard.com/)                                                | ? | ?
+2026-04-25 | Princeton    | [Princeton Puzzle Hunt 2026](https://puzzles.princeton.edu/hunt/3/info/)                                                    | 15 | 3
+2026-04-11 | Brown        | [Brown Puzzlehunt 2026](https://www.brownpuzzlehunt.com/) (Brown Puzzle College)                                            | 35 | 12
+2026-01-16 | MIT          | [2026 MIT Mystery Hunt](https://puzzles.mit.edu/2026/) (Puzzmon)                                                            | [195?](https://puzzles.mit.edu/2026/hunt/puzzles) | 37?
+-|---
+2025-12-12 | CMU          | [Worm Hunt (Fall '25)](https://puzzlehunt.club.cc.cmu.edu/hunt/30/)                                                         | 23 | 9
+2025-12-05 |              | [LN Hunt: Puzzlehunting in Another World with My Absurd Skills](https://ln-hunt.com/) (isekai light novels)                 | 26 | 4
+2025-12-01 | Advent       | [Advent Puzzle Hunt 2025](https://2025.adventhunt.com/) (Penguin Pandemonium)                                               | [24](https://2025.adventhunt.com/puzzles/) | 5?
+2025-11-22 | Boat         | [Puzzle Boat 12](https://www.pandamagazine.com/island12/)                                                                   | ~125? | ?
+2025-08-30 | Halpin       | [Look! Up in the Sky!](https://www.markhalpin.com/puzzles/1baobunny/bunbun.html)                                            | [12](https://www.markhalpin.com/puzzles/1baobunny/bunbunzb3.pdf) | 1
+2025-08-22 | Galactic     | [Galactic Puzzle Hunt 2025: Terraforming](https://2025.galacticpuzzlehunt.com/)                                             | [43](https://2025.galacticpuzzlehunt.com/puzzles) | 7
+2025-07-25 | Silph        | [Silph Puzzle Hunt 2025](https://silphpuzzlehunt.com/)                                                                      | [25](https://silphpuzzlehunt.com/puzzles) | 5
+2025-07-12 | Edric        | [Edric's 2025 Truzzle Hunt](http://happinessboard.com/2025truzzlehunt/)                                                     | 32? | 5?
+2025-07-12 | Singapore    | [Singapore Puzzle Hunt 2025](https://www.sgpuzzlehunt.com/2025/) (Dune)                                                     | [17](https://huntserver.sgpuzzlehunt.com/static/2025/puzzles.html) | 4
+2025-05-03 | Princeton    | [Princeton Puzzle Hunt 2025](https://puzzles.princeton.edu/hunt/2/info/)                                                    | 12 | 4
+2025-04-12 | CMU          | [Soup Hunt (Spring '25)](https://puzzlehunt.club.cc.cmu.edu/hunt/28/)                                                       | 18 | 4
+2025-04-12 | Brown        | [Brown Puzzlehunt 2025](https://2025.brownpuzzlehunt.com/) (Brown Puzzles Cinemas)                                          | ~39 | ~18
+2025-03-28 | Teammate     | [Matt & Emma's Deep-Space Disaster!!](https://2025.teammatehunt.com/)                                                       | [66?](https://2025.teammatehunt.com/puzzles) | 10?
+2025-01-17 | MIT          | [2025 MIT Mystery Hunt](https://puzzles.mit.edu/2025/) (The Case of the Shadow Diamond)                                     | [150](https://puzzles.mit.edu/2025/hunt/all_puzzles) | 22
+-|---
+2024-12-01 | Advent       | [Advent Puzzle Hunt 2024](https://2024.adventhunt.com/)                                                                     | [20](https://2024.adventhunt.com/puzzles/) | 4
+2024-11-30 | Boat         | [Puzzle Boat 11](https://www.pandamagazine.com/island11/)                                                                   | ~100? | ?
+2024-11-08 | Vehem        | [VeheMusical](https://www.vehemhunt.com/)                                                                                   | [9](https://www.vehemhunt.com/puzzles) | 1
+2024-11-02 | CMU          | [Country Hunt (Fall '24)](https://puzzlehunt.club.cc.cmu.edu/hunt/27/)                                                      | 14 | 3
+2024-10-31 |              | [Magic Hunt](https://puzzlehuntmy.us/hunt/13-Magic-Hunt)                                                                    | 15 | 3
+2024-10-12 | EC           | [EC Puzzle Hunt 2: Enchanted Castle](https://2024.ecph.site/)                                                               | [39](https://2024.ecph.site/puzzles) | 6
+2024-09-20 | Galactic     | [Galactic Puzzle Hunt 2024: Stargazing](https://2024.galacticpuzzlehunt.com/)                                               | 410 | 1+
+2024-09-02 | Halpin       | [Ch-Ch-Ch-Ch-Changes](https://www.markhalpin.com/puzzles/1morph/morph.html)                                                 | [11](https://www.markhalpin.com/puzzles/1morph/morphzb3.pdf) | 1
+2024-08-09 | Grand        | [Grand Hunt Digital Vol. 2](https://grandhuntdigital.com/)                                                                  | 30 | 4?
+2024-07-16 | Edric        | [Edric's 2024 Ptruzzle Hunt](https://happinessboard.com/2024ptruzzlehunt/)                                                  | 25 | 2
+2024-07-13 | Singapore    | [Singapore Puzzle Hunt 2024](https://www.sgpuzzlehunt.com/2024/) (Puzzle Fantasy X)                                         | 18 | 1
+2024-05-25 | Rojak        | [Puzzle Rojak 2](https://www.puzzlerojak.org/) (Where's Waldo? 2)                                                           | [37](https://www.puzzlerojak.org/puzzles) | 6
+2024-04-20 | CMU          | [Department Store Hunt (Spring '24)](https://puzzlehunt.club.cc.cmu.edu/hunt/25/)                                           | 24? | 5?
+2024-04-13 | Brown        | [Brown Puzzlehunt 2024](https://2024.brownpuzzlehunt.com/) (Brown Investigation Bureau)                                     | [29](https://2024.brownpuzzlehunt.com/puzzles) | 7
+2024-01-12 | MIT          | [2024 MIT Mystery Hunt](https://puzzles.mit.edu/2024/) (Pluto)                                                              | [215](https://puzzles.mit.edu/2024/mythstoryhunt.world/puzzles) | 19
+-|---
+2023-12-01 | Huntinality  | [Huntinality III: Hunts Upon a Time](https://www.huntinality.com/)                                                          | 36 | 5
+2023-11-10 | Galactic     | [Galactic Puzzle Hunt 2023: GalactiCosmiCave](https://2023.galacticpuzzlehunt.com/)                                         | 37 | 2
+2023-11-04 | CMU          | [Magic Hunt (Fall '23)](https://puzzlehunt.club.cc.cmu.edu/hunt/24/)                                                        | 17? | 4?
+2023-10-28 | Boat         | [Puzzle Boat 10](https://www.pandamagazine.com/island10/)                                                                   | ~189? | ?
 2023-09-02 | Halpin       | [Two on the Isle](http://www.markhalpin.com/puzzles/1ALOHA/aloha.html) (Hawaiian mythology)                                 | 12 | 1
 2023-07-28 |              | [Shardhunt](https://shardhunt.com/)                                                                                         | 25 | 4
 2023-07-16 | Edric        | [Edric's 2023 DUAL Puzzle Hunt](http://happinessboard.com/2023dualpuzzlehunt/)                                              | 48? | 2?
 2023-06-02 | "MIT"        | [Admiral Boötes’ Cosmic Discovery Expedition: Further Galaxies](https://puzzles.mit.edu/2023/abcde.puzzlefactory.place)     | 19? | 4?
 2023-05-06 |              | [Microsoft Puzzlehunt 23: Puzzle University](https://puzzle.university/)                                                    | 98? | 20?
 2023-04-22 | CMU          | [Prehistory Hunt (Spring '23)](https://puzzlehunt.club.cc.cmu.edu/hunt/22/)                                                 | 16 | 3
-2023-04-15 |              | [Brown Puzzlehunt](https://www.brownpuzzlehunt.com/)                                                                        | [24](https://www.brownpuzzlehunt.com/puzzles) | 4
-2023-02-10 |              | [Grand Hunt Digital](https://grandhuntdigital.com/)                                                                         | [30](https://grandhuntdigital.com/puzzles) | 3
-2023-01-13 | MIT          | [2023 MIT Mystery Hunt](https://interestingthings.museum/)                                                                  | 152 | 18
+2023-04-15 | Brown        | [Brown Puzzlehunt 2023](https://2023.brownpuzzlehunt.com/) (Blueno Resurrection Society)                                    | [24](https://2023.brownpuzzlehunt.com/puzzles) | 4
+2023-02-10 | Grand        | [Grand Hunt Digital](https://2023.grandhuntdigital.com/)                                                                    | [30](https://2023.grandhuntdigital.com/puzzles) | 3
+2023-01-13 | MIT          | [2023 MIT Mystery Hunt](https://puzzles.mit.edu/2023/) (Museum of Interesting Things)                                       | 152 | 18
 -|---
 2022-12-03 | Boat         | [Puzzle Boat 9](https://www.pandamagazine.com/island9/) (part 1)  (arcade)                                                  | ? | ?
 2022-11-19 | CMU          | [Monopoly Hunt (Fall '22)](https://puzzlehunt.club.cc.cmu.edu/hunt/21/)                                                     | 22 | ?
-2022-10-08 |              | [Exploring the Countryside](https://ecph.site/)                                                                             | [24](https://ecph.site/) | 3
+2022-10-08 | EC           | [Exploring the Countryside](https://2022.ecph.site/)                                                                        | [24](https://2022.ecph.site/) | 3
 2022-09-03 | Halpin       | [Cross Purposes](http://www.markhalpin.com/puzzles/1CHEVROTAIN/chevrotain.html) (Malaysian folk tales)                      | [12](http://www.markhalpin.com/puzzles/1CHEVROTAIN/chevrotain767690.pdf) | 1
 2022-08-26 | Galactic     | [Galactic Puzzle Hunt 2022: The Exam](https://2022.galacticpuzzlehunt.com/)                                                 | [38](https://2022.galacticpuzzlehunt.com/puzzles) | 5?
 2022-07-11 | Edric        | [Edric's 2022 Puzzle Hunt](http://happinessboard.com/2022puzzlehunt/index.html)                                             | [24](http://happinessboard.com/2022puzzlehunt/puzzles.html) | 2
 2022-07-09 | REDDOT       | [REDDOThunt 2022](https://2022.reddothunt.sg/) (trip planning)                                                              | [19](https://2022.reddothunt.sg/puzzles) | 3
 2022-07-02 | Edric        | [Edric's 2022 Truzzle Hunt](http://happinessboard.com/2022truzzlehunt/index.html)                                           | ? | ?
-2022-06-18 | Huntinality  | [Huntinality 2.0](https://www.huntinality.com/) (web2.0 (?))                                                                | [33](https://www.huntinality.com/puzzles) | 5
+2022-06-18 | Huntinality  | [Huntinality 2.0](https://2022.huntinality.com/) (web2.0 (?))                                                               | [33](https://2022.huntinality.com/puzzles) | 5
 2022-04-23 | CMU          | [This Is Not a Puzzle Hunt (Spring '22)](https://puzzlehunt.club.cc.cmu.edu/hunt/19/)                                       | 24 | ?
 2022-04-15 |              | [Quantum Online Puzzle Hunt](https://hunts.timwi.de/qoph) (bomb defusal)                                                    | [24](https://hunts.timwi.de/qoph/puzzles) | 3
 2022-01-15 | MIT          | [2022 MIT Mystery Hunt](https://puzzles.mit.edu/2022/) (Bookspace)                                                          | [162?](https://www.bookspace.world/puzzles/) | 20?
 -|---
-2021-12-18 |              | [Puzzle Rojak](https://www.puzzlerojak.com/) (Where's Waldo?)                                                               | [27](https://www.puzzlerojak.com/puzzles) | 5
-2021-12-04 |              | [Silph Puzzle Hunt](https://silphpuzzlehunt.com/) (Pokémon Go)                                                              | [33](https://silphpuzzlehunt.com/puzzles) | 5
+2021-12-18 | Rojak        | [Puzzle Rojak](https://www.puzzlerojak.com/) (Where's Waldo?)                                                               | [27](https://www.puzzlerojak.com/puzzles) | 5
+2021-12-04 | Silph        | [Silph Puzzle Hunt 2021](http://2021.silphpuzzlehunt.com/) (Pokémon Go)                                                    | [33](http://2021.silphpuzzlehunt.com/puzzles) | 5
 2021-11-20 | CMU          | [Spam Hunt (Fall '21)](https://puzzlehunt.club.cc.cmu.edu/hunt/17/)                                                         | 21 | ?
 2021-10-23 | Boat         | [Puzzle Boat 8](https://www.pandamagazine.com/island8/) (infinity)                                                          | ? | ?
 2021-10-09 |              | [Burn After Solving](https://www.burnaftersolving.com/)                                                                     | [18](https://www.burnaftersolving.com/puzzles) | 6
-2021-10-01 | Teammate     | [Matt & Emma's Carnival Conundrum](https://teammatehunt.com/)                                                               | [43](https://teammatehunt.com/puzzles) | 5
+2021-10-01 | Teammate     | [Matt & Emma's Carnival Conundrum](https://2021.teammatehunt.com/)                                                          | [43](https://2021.teammatehunt.com/puzzles) | 5
 2021-09-10 |              | [QoDE Puzzle Hunt](https://ona.quest/) (Batman)                                                                             | [43](https://ona.quest/puzzles) | 5
 2021-08-21 | Potluck      | [Puzzle Potluck 4](https://puzzlepotluck.com/4) (Animal Crossing)                                                           | [9(×2)](https://puzzlepotluck.com/4) | 3?
 2021-07-23 | Galactic     | [Galactic Puzzle Hunt 2020: 20/20 Vision](https://2020.galacticpuzzlehunt.com/)                                             | [36](https://2020.galacticpuzzlehunt.com/puzzles) | 7
 2021-07-16 |              | [Hunt20](https://hunt20.com/) (books)                                                                                       | [18](https://hunt20.com/puzzles.html) | 2
-2021-07-09 |              | [Edric's Truzzle Hunt 2021](https://happinessboard.com/2021truzzlehunt/index.html)                                          | ? | ?
-2021-05-29 | Huntinality  | [Huntinality](https://huntinality.com/) (Waluigi)                                                                           | [15](https://huntinality.com/) | 2
-2021-05-08 |              | [Paradox Puzzlehunt](https://paradoxpuzzlehunt.com/) (Soda Fountain of Youth)                                               | [10](https://paradoxpuzzlehunt.com/puzzles) | 2
+2021-07-09 | Edric        | [Edric's Truzzle Hunt 2021](https://happinessboard.com/2021truzzlehunt/index.html)                                          | ? | ?
+2021-05-29 | Huntinality  | [Huntinality](https://2021.huntinality.com/) (Waluigi)                                                                      | [15](https://2021.huntinality.com/) | 2
+2021-05-08 | Paradox      | [Paradox Puzzlehunt](https://2021.paradoxpuzzlehunt.com/) (Soda Fountain of Youth)                                          | [10](https://2021.paradoxpuzzlehunt.com/puzzles.html) | 2
 2021-04-24 |              | [Inaudible Puzzlehunt](https://mutedpuzzles.com/)                                                                           | [8](https://mutedpuzzles.com/Welcome%20to%20mini%20hunt!.html) | 1
 2021-04-10 | CMU          | [Pirate Hunt (Spring '21)](https://puzzlehunt.club.cc.cmu.edu/hunt/16/)                                                     | 22 | ?
 2021-01-30 |              | [Inexact Puzzlehunt](https://inexactpuzzles.com/hunts/1bqxw/halloween/) (Halloween)                                         | [9](https://inexactpuzzles.com/hunts/1bqxw/halloween/) | 1
@@ -103,8 +145,8 @@ Start Date | "Franchise"  | Puzzlehunt | Puzzles | Metas
 2016-11-05 | CMU          | [Harry Potter and The Hunt of Puzzles (Fall '16)](https://puzzlehunt.club.cc.cmu.edu/hunt/4/)                               | 18 | ?
 2016-10-10 | mezzacotta   | [mezzacotta Puzzle Competition](https://www.mezzacotta.net/puzzle/)                                                         | [25](https://www.mezzacotta.net/puzzle/puzzles.php) | 1
 2016-09-03 | Halpin       | [Here Comes the Sun](http://www.markhalpin.com/puzzles/amaterasu/amat.html) (Shinto)                                        | [8](http://www.markhalpin.com/puzzles/amaterasu/amat.pdf) | 1
-2016-03-26 | CMU          | [Puzzlehunt: The Musical! (Spring '16)](https://puzzlehunt.club.cc.cmu.edu/hunt/3/)                                         | 18 | ?
 2016-05-09 | MUMS         | [MUMS Puzzle Hunt 2016](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2016/puzzles.html) (time travel)             | [25](https://researchers.ms.unimelb.edu.au/~mums/puzzlehunt/2016/puzzles.html) | 1
+2016-03-26 | CMU          | [Puzzlehunt: The Musical! (Spring '16)](https://puzzlehunt.club.cc.cmu.edu/hunt/3/)                                         | 18 | ?
 2016-01-15 | MIT          | [2016 MIT Mystery Hunt](https://web.mit.edu/puzzle/www/2016/) (Huntception)                                                 | [147?](https://web.mit.edu/puzzle/www/2016/toc.html) | 17?
 -|---
 2015-11-07 | CMU          | [Adventure hunt (Fall '15)](https://puzzlehunt.club.cc.cmu.edu/hunt/2/)                                                     | 23 | ?
