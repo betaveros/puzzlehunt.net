@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIT Mystery Hunt finishing times</title>
+<style>
+body { font-family: sans-serif; }
+h1 { font-weight: normal; }
+circle {
+	fill: steelblue;
+}
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+.emoji { font-size: 150%; }
+.day-tick line {
+  stroke: silver;
+  stroke-width: 1px;
+  stroke-dasharray: 3 3;
+}
+.day-tick text {
+  fill: silver;
+  font-size: 50%;
+}
+#container { position: relative; }
+#tooltip {
+	position: absolute;
+	white-space: pre;
+	border: 1px solid black;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 0.5em;
+}
+</style>
+</head>
+<body>
+	<h1>MIT Mystery Hunt finishing times</h1>
+	Early data from Chris King's <a href="https://docs.google.com/spreadsheets/d/12PvfOSK7jsLkYuK1tWJw7p1wW1rGZxSHAsxcxtUQD6E/edit?gid=0#gid=0">sheet</a> (via <a href="https://www.reddit.com/r/mysteryhunt/comments/encuj3/mystery_hunt_finishing_times/">reddit</a>), late data from <a href="https://www.puzzles.wiki/wiki/Main_Page">Puzzles Wiki</a>. All times counted from 1pm Friday. (Note 1997 is missing)
+	<div id="container">
+	<svg></svg>
+	<div id="tooltip" style="display: none"></div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/d3-jetpack@3.0.0/build/d3v7+jetpack.js"></script>
+<script type="text/javascript">
+const data = `1994	5:00 PM	Saturday	Cyberpunk	🦾
+1995	4:00 AM	Monday	Clue	🔍
+1996	8:00 PM	Sunday	Godel, Escher, Bach	🧮
+1998	2:30 PM	Sunday	enigmatology	🎓
+1999	11:15 PM	Sunday	Carmen Sandiego	🌍
+2000	2:17 AM	Sunday	The Wizard of Oz	🧙
+2001	2:16 AM	Sunday	horror	👻
+2002	5:29 AM	Sunday	Monopoly	💰
+2003	7:26 AM	Monday	The Matrix	🕶
+2004	8:23 AM	Monday	Time Bandits	⏰️
+2005	6:34 PM	Sunday	Normalville	🦸
+2006	12:31 AM	Sunday	S.P.I.E.S.	🕵
+2007	2:14 AM	Sunday	Hell	😈
+2008	8:26 PM	Sunday	Dr. Otto Awkward's murder	🔪
+2009	3:03 AM	Monday	Escape from Zyzzylvaria	🪐
+2010	5:50 AM	Sunday	alternate timeline	🔀
+2011	5:58 AM	Sunday	video games	🎮
+2012	10:27 PM	Saturday	Broadway	🎭
+2013	3:18 PM	Monday	coin heist	🥷
+2014	2:30 AM	Sunday	Alice in Wonderland	🐇
+2015	5:05 AM	Sunday	20,000 Puzzles Under the Sea	🐟
+2016	6:53 PM	Sunday	Huntception	🌀
+2017	4:23 AM	Saturday	Dungeons & Dragons	🐉
+2018	4:21 PM	Sunday	Inside Out	😃
+2019	5:49 PM	Sunday	holidays	🎄
+2020	2:56 PM	Sunday	Penny Park	🎡
+2021	7:55 PM	Sunday	⊥IW	⬇️
+2022	9:57 AM	Sunday	Bookspace	📚
+2023	7:23 AM	Monday	Museum of Interesting Things	🏛
+2024	5:21 AM	Monday	Pluto	🏺
+2025	11:47 AM	Sunday	Shadow Diamond	💎
+2026	12:20 PM	Sunday	Puzzmon	🐣`;
+
+let rows = data.split("\n").map(line => {
+	let [yearStr, timeStr, dayStr, theme, emoji] = line.split("\t");
+	let [hmStr, amPm] = timeStr.split(" ");
+	let [hStr, mStr] = hmStr.split(":");
+	let hours = (
+		(Number(hStr) % 12) // 12 is 0
+		+ (Number(mStr) / 60)
+		+ (amPm === "PM" ? 12 : 0)
+		+ 24 * (dayStr === "Saturday" ? 1 : dayStr === "Sunday" ? 2 : 3)
+		- 13 // 1pm
+	);
+	return {
+		year: Number(yearStr),
+		fullTime: `${dayStr} ${timeStr}`,
+		hours,
+		theme,
+		emoji,
+	};
+});
+
+rows.forEach((row, i) => {
+	if (i === 0) {
+		row.dominantBaseline = "middle";
+		row.textAnchor = "start";
+		row.xOffset = 4;
+		row.yOffset = 0;
+	} else {
+		row.textAnchor = "middle";
+		row.xOffset = 0;
+		let neighborHours = i < rows.length - 1
+			? (rows[i - 1].hours + rows[i + 1].hours) / 2
+			: rows[i - 1].hours;
+		if (neighborHours < row.hours) {
+			row.dominantBaseline = "text-bottom";
+			row.yOffset = -2;
+		} else {
+			row.dominantBaseline = "text-top";
+			row.yOffset = 2;
+		}
+	}
+});
+
+var margin = {top: 30, right: 50, bottom: 30, left: 50},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+
+let [minYear, maxYear] = d3.extent(rows, d3.f("year"));
+// let hourRange = d3.extent(rows, d3.f("hours"));
+let hourRange = [10, 75];
+var x = d3.scaleLinear().domain([minYear, maxYear]).range([0, width]);
+var y = d3.scaleLinear().domain(hourRange).range([height, 0]);
+var xAxis = d3.axisBottom().scale(x).tickValues(d3.range(minYear, maxYear + 1)).tickFormat(d3.format("d"));
+var yAxis = d3.axisLeft().scale(y);
+var line = d3.line().x(d => x(d.year)).y(d => y(d.hours));
+var svg = d3.select("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+svg.append("g").attr("transform", "translate(0," + height + ")").call(xAxis);
+svg.append("g").call(yAxis);
+svg.append("path").datum(rows).attr("class", "line").attr("d", line);
+
+let dayGs = svg.append("g").selectAll("g").data([["Saturday", 11], ["Sunday", 35], ["Monday", 59]]).join("g").classed("day-tick", true);
+dayGs.append("line").attr("x1", 0).attr("x2", width).attr("y1", d => y(d[1])).attr("y2", d => y(d[1]));
+dayGs.append("text").attr("y", d => y(d[1]) - 4).attr("x", width).attr("text-anchor", "end").text(d => d[0]);
+
+// jetpack is supposed to give me appendMany ???
+// svg.appendMany("text", rows).attr("x", d => x(d.year)).attr("y", d => y(d.hours)).text(d => d.emoji);
+
+let tooltip = d3.select("#tooltip");
+let gs = svg.append("g").selectAll("g").data(rows).join("g");
+gs.append("circle").attr("cx", d => x(d.year)).attr("cy", d => y(d.hours)).attr("r", 4);
+gs.append("text").classed("emoji", true).attr("x", d => x(d.year) + d.xOffset).attr("y", d => y(d.hours) + d.yOffset).text(d => d.emoji)
+	.attr("text-anchor", d => d.textAnchor)
+	.attr("dominant-baseline", d => d.dominantBaseline);
+gs.on("mouseover", (event, d) => {
+	let hoursDisplay = d3.format(".1f")(d.hours);
+	tooltip
+		.style("display", "block")
+		.text(`${d.year}: ${d.theme}\n${d.fullTime} (${hoursDisplay} hours)`);
+	let relY = y(d.hours);
+	let absY = relY + margin.top;
+	if (relY < height * 0.75) { // arbitrary vibes
+		absY += 10;
+	} else {
+		absY -= tooltip.node().getBoundingClientRect().height + 10;
+	}
+	tooltip
+		.style("top", absY + "px")
+		.style("left", (x(d.year) + margin.left) + "px");
+});
+gs.on("mouseout", (event, d) => {
+	tooltip.style("display", "none");
+});
+
+</script>
+</body>
+</html>
