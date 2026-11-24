@@ -140,11 +140,12 @@ var svg = d3.select("svg")
 
 svg.append("g").attr("transform", "translate(0," + height + ")").call(xAxis);
 svg.append("g").call(yAxis);
-svg.append("path").datum(rows).attr("class", "line").attr("d", line);
 
 let dayGs = svg.append("g").selectAll("g").data([["Saturday", 11], ["Sunday", 35], ["Monday", 59]]).join("g").classed("day-tick", true);
 dayGs.append("line").attr("x1", 0).attr("x2", width).attr("y1", d => y(d[1])).attr("y2", d => y(d[1]));
 dayGs.append("text").attr("y", d => y(d[1]) - 4).attr("x", width).attr("text-anchor", "end").text(d => d[0]);
+
+svg.append("path").datum(rows).attr("class", "line").attr("d", line);
 
 // jetpack is supposed to give me appendMany ???
 // svg.appendMany("text", rows).attr("x", d => x(d.year)).attr("y", d => y(d.hours)).text(d => d.emoji);
