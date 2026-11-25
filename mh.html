@@ -8,8 +8,11 @@
 <style>
 body { font-family: sans-serif; }
 h1 { font-weight: normal; }
-circle {
+circle.dot {
 	fill: steelblue;
+}
+circle.hover-target {
+	fill: transparent;
 }
 .line {
   fill: none;
@@ -43,7 +46,8 @@ circle {
 	<svg></svg>
 	<div id="tooltip" style="display: none"></div>
 	</div>
-<script src="https://cdn.jsdelivr.net/npm/d3-jetpack@3.0.0/build/d3v7+jetpack.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/d3-jetpack@3.0.0/build/d3v7+jetpack.js"></script> -->
+	<script src="https://cdn.jsdelivr.net/gh/betaveros/d3-jetpack@579b030e0912f5d545ab16b08fe79dc980423b77/build/d3v7%2Bjetpack.js"></script>
 <script type="text/javascript">
 const data = `1994	5:00 PM	Saturday	Cyberpunk	🦾
 1995	4:00 AM	Monday	Clue	🔍
@@ -126,24 +130,26 @@ var margin = {top: 30, right: 50, bottom: 30, left: 50},
 
 let [minYear, maxYear] = d3.extent(rows, d3.f("year"));
 // let hourRange = d3.extent(rows, d3.f("hours"));
-let hourRange = [10, 75];
+let hourRange = [0, 75];
 var x = d3.scaleLinear().domain([minYear, maxYear]).range([0, width]);
 var y = d3.scaleLinear().domain(hourRange).range([height, 0]);
 var xAxis = d3.axisBottom().scale(x).tickValues(d3.range(minYear, maxYear + 1)).tickFormat(d3.format("d"));
 var yAxis = d3.axisLeft().scale(y);
 var line = d3.line().x(d => x(d.year)).y(d => y(d.hours));
 var svg = d3.select("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		.at({
+			width: width + margin.left + margin.right,
+			height: height + margin.top + margin.bottom,
+		})
+	.append("g")
+		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 svg.append("g").attr("transform", "translate(0," + height + ")").call(xAxis);
 svg.append("g").call(yAxis);
 
-let dayGs = svg.append("g").selectAll("g").data([["Saturday", 11], ["Sunday", 35], ["Monday", 59]]).join("g").classed("day-tick", true);
-dayGs.append("line").attr("x1", 0).attr("x2", width).attr("y1", d => y(d[1])).attr("y2", d => y(d[1]));
-dayGs.append("text").attr("y", d => y(d[1]) - 4).attr("x", width).attr("text-anchor", "end").text(d => d[0]);
+let dayGs = svg.appendMany("g", [["Saturday", 11], ["Sunday", 35], ["Monday", 59]]).classed("day-tick", true);
+dayGs.append("line").at({x1: 0, x2: width, y1: d => y(d[1]), y2: d => y(d[1])});
+dayGs.append("text").at({y: d => y(d[1]) - 4, x: width, textAnchor: "end"}).text(d => d[0]);
 
 svg.append("path").datum(rows).attr("class", "line").attr("d", line);
 
@@ -151,26 +157,38 @@ svg.append("path").datum(rows).attr("class", "line").attr("d", line);
 // svg.appendMany("text", rows).attr("x", d => x(d.year)).attr("y", d => y(d.hours)).text(d => d.emoji);
 
 let tooltip = d3.select("#tooltip");
-let gs = svg.append("g").selectAll("g").data(rows).join("g");
-gs.append("circle").attr("cx", d => x(d.year)).attr("cy", d => y(d.hours)).attr("r", 4);
-gs.append("text").classed("emoji", true).attr("x", d => x(d.year) + d.xOffset).attr("y", d => y(d.hours) + d.yOffset).text(d => d.emoji)
-	.attr("text-anchor", d => d.textAnchor)
-	.attr("dominant-baseline", d => d.dominantBaseline);
+let gs = svg.appendMany("g", rows);
+gs.append("circle").classed("dot", true).at({cx: d => x(d.year), cy: d => y(d.hours), r: 4});
+gs.append("circle").classed("hover-target", true).at({cx: d => x(d.year), cy: d => y(d.hours), r: 12}); // just for hover
+gs.append("text").classed("emoji", true).text(d => d.emoji).at({
+	x: d => x(d.year) + d.xOffset,
+	y: d => y(d.hours) + d.yOffset,
+	textAnchor: d3.f("textAnchor"),
+	dominantBaseline: d3.f("dominantBaseline"),
+});
 gs.on("mouseover", (event, d) => {
 	let hoursDisplay = d3.format(".1f")(d.hours);
 	tooltip
 		.style("display", "block")
 		.text(`${d.year}: ${d.theme}\n${d.fullTime} (${hoursDisplay} hours)`);
+	let tooltipRect = tooltip.node().getBoundingClientRect();
+
+	let relX = x(d.year);
+	if (relX > width * 0.5) {
+		relX -= tooltipRect.width;
+	}
+	let absX = relX + margin.left;
+
 	let relY = y(d.hours);
 	let absY = relY + margin.top;
 	if (relY < height * 0.75) { // arbitrary vibes
 		absY += 10;
+		if (d.dominantBaseline === "text-top") absY += 20;
 	} else {
-		absY -= tooltip.node().getBoundingClientRect().height + 10;
+		absY -= tooltipRect.height + 10;
+		if (d.dominantBaseline === "text-bottom") absY -= 20;
 	}
-	tooltip
-		.style("top", absY + "px")
-		.style("left", (x(d.year) + margin.left) + "px");
+	tooltip.st({top: absY + "px", left: absX + "px"});
 });
 gs.on("mouseout", (event, d) => {
 	tooltip.style("display", "none");
